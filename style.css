@@ -1,0 +1,98 @@
+
+/* Utility */
+
+html {
+    background: #9BA2B0;
+    font-size: 14px;
+}
+
+body
+{
+
+    background: white;
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,.3);
+    box-sizing: border-box;
+    margin: 1em auto;
+    max-width:1080px;
+    padding: 7em 8%;
+    width:100%;
+}
+
+
+.center
+{
+    margin: 0 auto;
+}
+.base_size
+{
+    max-width:1080px;
+    width:100%;
+}
+
+.flex
+{
+    display:flex;
+}
+
+/* End Utility */
+
+/* Header */
+
+.main_header
+{
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.main_header h1
+{
+    margin-bottom:5px;
+    text-align:center;
+}
+.header_title
+{
+    border-bottom:1px solid blue;
+    width:60%;
+}
+
+.social-itens
+{
+    width:60%;
+}
+
+.social-itens ul
+{
+    justify-content: center;
+    list-style: none;
+}
+
+.social-itens ul li
+{
+    padding-right:10px;}
+
+
+
+/* End Header */
+
+/* Apresentação */
+
+.apresentacao
+ {
+    flex-wrap:wrap;
+     justify-content:center;
+     width:100%;
+ }
+
+.apresentacao h2
+{
+    text-align:center;
+    width:100%;
+}
+
+.apresentacao p
+{
+    width: 80%;
+    text-align: justify;
+}
+
+/* end Apresentação */
